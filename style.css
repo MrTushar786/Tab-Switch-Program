@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #eeba60;
+}
+.item{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    background: white;
+    color: black;
+    padding: 30px;
+    box-shadow: -4px 4px 0px rgb(208, 5, 5);
+}
+.main h1{
+    font-size: 20px;
+}
+.main p{
+    margin-top: 1rem;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: left;
+    justify-content: flex-start;
+}
+.nav{
+    background: rgb(199, 166, 0);
+    font-size: 10px;
+    padding: 10px;
+}
+.object{
+    text-align: left;
+}
+.nav:hover{
+    background: white;
+    color: black;
+    cursor: pointer;
+}
